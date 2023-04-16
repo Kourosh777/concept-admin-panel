@@ -1,0 +1,27 @@
+.dashboard-wrapper{
+    margin-right: 264px;
+    margin-left: 0;
+}
+.my-right-menu{
+    padding-right: 0;
+}
+ul.nav{
+    padding-right: 0;
+}
+.nav-left-sidebar .nav-link[data-toggle="collapse"]::after{
+    right: initial;
+    left: 20px;
+}
+.nav-left-sidebar .nav-link[data-toggle="collapse"]::after{
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid;
+    border-left: 0.3em solid transparent;
+}
+.nav-left-sidebar .nav-link[data-toggle="collapse"][aria-expanded="true"]:after {
+    transform: rotate(-180deg);
+}
+.nav-left-sidebar .nav-link i {
+    margin-right: 9px;
+    margin-left: 2px;
+}
